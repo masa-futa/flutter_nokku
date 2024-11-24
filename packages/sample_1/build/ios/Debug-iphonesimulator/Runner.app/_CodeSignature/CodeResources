@@ -18,7 +18,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		h/eMORd9Vs8R5+bxjb2bwkH4qwo=
+		XLugirWgOAoE4VoOO74hJzvTfl0=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		z52V6Et+3a5ByhS8SOBCQeK7kAM=
+		UUF8KTgQLQ5BYFRb+D3KzCCrfus=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,15 +54,15 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		Au1RhOg5ZzuwlXB8V5woNaWrX9s=
+		kUXw8FActV/+TiX4l4cwT6d5yOU=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<data>
-		ME0cAg6cl/bTZmwXEVgMugDccUI=
+		lRakMiHmiIOfa13GaIFTKjoIKIQ=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
-		oG5/OGn+vw7vp/nu5DUDoZJ4nFc=
+		EwAIabBmgFZkVDkNGuZx2/dqxB0=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -70,7 +70,11 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/NOTICES.Z</key>
 		<data>
-		sWbTtMnRbaNlj5jjGaqpFxJEEFY=
+		OYERPlNkdxu8GHhu0A0rF9V0oxc=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/sample.jpg</key>
+		<data>
+		+F5l9RxBPVbN2qyCExSH/QTSnhw=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<data>
@@ -82,7 +86,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		grk5QIIExP63gPEV5BoBnaPZItI=
+		+VYvLXxHR4QThwfOZH/yV3xnXUo=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -198,7 +202,7 @@
 		</data>
 		<key>Runner.debug.dylib</key>
 		<data>
-		tK+EYnRBKwUObIVtSS4oRK5xA2s=
+		9RTc2RRda6YbUod9bdkij6sw96Y=
 		</data>
 		<key>__preview.dylib</key>
 		<data>
@@ -232,7 +236,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZxIxAOrUUfo3oiNowiB1BV2NR/vj12rLsrp6TcSK0Rc=
+			8XVAXtgwVYP56NDjltGCRHcpQQT6+E3TxhPx045rf84=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
@@ -281,7 +285,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6jSMUBiqpobkZ10rvqE3jTIXlsBTJcil998Sa6Q9WiI=
+			RT7EbT3OmBOHSl+GVj+2J7xCgANaNJO9Jd/4fzfGtGA=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -295,21 +299,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iHQoeHryqXX5IbuWx6vhoYeBHba1PSGGu6yvQ4G5Lxs=
+			oA6jwQhKirp17Do7HSGsH3it9/5ivJbOVGxgjkx/sAA=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AK9VrT1vIYmP534P8JLRoc2lLJQbaGDpko1FyK+MCV0=
+			zGgRhxzt5GBV5V2vMHH3P4FpdKPdgKIgxI0a2Bc384E=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Sps95+7JukayebvM0TLjL1LW1VXXndpKp/O8tOm9ZR8=
+			ZiEXVc3umg5mhtmzWFSPMgxYjZRUxIexg49t8xMFJtI=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
@@ -323,7 +327,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aAxAe06bxCUOgJaamhdMx/wwnH7zmDh9RHgcoFWujq0=
+			1qTzZ70EpiIZ+TIHGAdtso15krPAULyyAjLla5EjrDU=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/sample.jpg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DnejVscsn51HYakYcTQrMkAv7GEjGVDiQiGIniAQ4O8=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.otf</key>
@@ -344,7 +355,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8q2JPVhPu3n80k6jYV+svd6+LDcx+AvBHsFBOuoFe/A=
+			tWsgqWWKeVci8yyyFHIxXekhw8072eczfpzT2gziPAc=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -533,7 +544,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DvFAjI0F+Ydv1koHmvVAWHWbPHx7ejJJKMskLWEbJbY=
+			lUEbb50W9y2a68geoM1T1xQ1R2KPFswbizDAKMwYZW4=
 			</data>
 		</dict>
 		<key>__preview.dylib</key>

@@ -1,4 +1,25 @@
 name: ui_nokku
 
+sdkPath: .fvm/flutter_sdk
+
+command:
+  bootstrap:
+    environment:
+      sdk: ^3.6.0-216.1.beta
+      flutter: ^3.26.0-0.1.pre
+    dependencies:
+      flutter:
+        sdk: flutter
+      hooks_riverpod: ^2.6.1
+      flutter_hooks: ^0.20.5
+      riverpod_annotation: ^2.6.1
+      pedantic_mono: any
+    dev_dependencies:
+      flutter_lints: ^4.0.0
+      riverpod_generator: ^2.6.3
+      build_runner: ^2.4.13
+
 packages:
   - packages/*
+
+scripts:

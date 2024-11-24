@@ -3,5 +3,8 @@ name: ui_nokku
 environment:
   sdk: ^3.6.0-216.1.beta
 
+dependencies:
+  pedantic_mono: any
+
 dev_dependencies:
   melos: ^6.2.0
