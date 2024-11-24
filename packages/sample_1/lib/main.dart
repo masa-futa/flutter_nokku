@@ -4,8 +4,10 @@ import 'package:sample_1/login/login.dart';
 
 void main() {
   runApp(
-    ProviderScope(
-      child: LoginScreen(),
+    const ProviderScope(
+      child: MaterialApp(
+        home: LoginScreen(),
+      ),
     ),
   );
 }
