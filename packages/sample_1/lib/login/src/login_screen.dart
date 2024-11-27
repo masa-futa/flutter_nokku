@@ -1,6 +1,8 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
+import 'package:go_router/go_router.dart';
+import 'package:sample_1/routes/src/router.dart';
 
 class LoginScreen extends StatelessWidget {
   const LoginScreen({super.key});
@@ -90,7 +92,8 @@ class LoginScreen extends StatelessWidget {
                             ),
                             const Gap(22),
                             ElevatedButton(
-                              onPressed: () => print('ログイン'),
+                              onPressed: () =>
+                                  context.go(ProfilePageRoute.path),
                               style: ElevatedButton.styleFrom(
                                 foregroundColor: Colors.white,
                                 backgroundColor: Colors.brown,
