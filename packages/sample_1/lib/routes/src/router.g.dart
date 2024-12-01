@@ -40,6 +40,14 @@ RouteBase get $pageShellRoute => StatefulShellRouteData.$route(
         StatefulShellBranchData.$branch(
           routes: [
             GoRouteData.$route(
+              path: '/home',
+              factory: $HomePageRouteExtension._fromState,
+            ),
+          ],
+        ),
+        StatefulShellBranchData.$branch(
+          routes: [
+            GoRouteData.$route(
               path: '/profile',
               factory: $ProfilePageRouteExtension._fromState,
             ),
@@ -51,6 +59,23 @@ RouteBase get $pageShellRoute => StatefulShellRouteData.$route(
 extension $PageShellRouteExtension on PageShellRoute {
   static PageShellRoute _fromState(GoRouterState state) =>
       const PageShellRoute();
+}
+
+extension $HomePageRouteExtension on HomePageRoute {
+  static HomePageRoute _fromState(GoRouterState state) => const HomePageRoute();
+
+  String get location => GoRouteData.$location(
+        '/home',
+      );
+
+  void go(BuildContext context) => context.go(location);
+
+  Future<T?> push<T>(BuildContext context) => context.push<T>(location);
+
+  void pushReplacement(BuildContext context) =>
+      context.pushReplacement(location);
+
+  void replace(BuildContext context) => context.replace(location);
 }
 
 extension $ProfilePageRouteExtension on ProfilePageRoute {

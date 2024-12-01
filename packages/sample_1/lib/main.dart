@@ -36,7 +36,7 @@ class BaseScreen extends StatelessWidget {
       bottomNavigationBar: NavigationBar(
         destinations: const [
           NavigationDestination(
-            icon: Icon(Icons.login),
+            icon: Icon(Icons.home),
             label: 'home',
           ),
           NavigationDestination(

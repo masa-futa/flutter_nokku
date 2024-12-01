@@ -2,7 +2,7 @@ part of 'package:sample_1/routes/src/router.dart';
 
 @TypedStatefulShellRoute<PageShellRoute>(
   branches: [
-    profileShellBranch,
+    homeShellBranch,
     profileShellBranch,
   ],
 )
