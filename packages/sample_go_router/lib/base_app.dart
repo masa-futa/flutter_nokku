@@ -14,11 +14,11 @@ class BaseApp extends StatelessWidget {
         destinations: const [
           NavigationDestination(
             icon: Icon(Icons.home),
-            label: 'home',
+            label: 'sample2',
           ),
           NavigationDestination(
             icon: Icon(Icons.person),
-            label: 'Profile',
+            label: 'sample3',
           ),
         ],
       ),

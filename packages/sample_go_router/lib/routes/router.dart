@@ -3,6 +3,7 @@ import 'package:go_router/go_router.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'package:sample_go_router/base_app.dart';
+import 'package:sample_go_router/routes/sample3/sample3_shell_branch.dart';
 import 'package:sample_go_router/screen/sample1_screen.dart';
 import 'package:sample_go_router/screen/sample2_screen.dart';
 

@@ -7,31 +7,9 @@ part of 'router.dart';
 // **************************************************************************
 
 List<RouteBase> get $appRoutes => [
-      $sample1Route,
       $pageShellRoute,
+      $sample1Route,
     ];
-
-RouteBase get $sample1Route => GoRouteData.$route(
-      path: '/sample1',
-      factory: $Sample1RouteExtension._fromState,
-    );
-
-extension $Sample1RouteExtension on Sample1Route {
-  static Sample1Route _fromState(GoRouterState state) => Sample1Route();
-
-  String get location => GoRouteData.$location(
-        '/sample1',
-      );
-
-  void go(BuildContext context) => context.go(location);
-
-  Future<T?> push<T>(BuildContext context) => context.push<T>(location);
-
-  void pushReplacement(BuildContext context) =>
-      context.pushReplacement(location);
-
-  void replace(BuildContext context) => context.replace(location);
-}
 
 RouteBase get $pageShellRoute => StatefulShellRouteData.$route(
       factory: $PageShellRouteExtension._fromState,
@@ -69,11 +47,33 @@ extension $Sample2RouteExtension on Sample2Route {
   void replace(BuildContext context) => context.replace(location);
 }
 
+RouteBase get $sample1Route => GoRouteData.$route(
+      path: '/sample1',
+      factory: $Sample1RouteExtension._fromState,
+    );
+
+extension $Sample1RouteExtension on Sample1Route {
+  static Sample1Route _fromState(GoRouterState state) => Sample1Route();
+
+  String get location => GoRouteData.$location(
+        '/sample1',
+      );
+
+  void go(BuildContext context) => context.go(location);
+
+  Future<T?> push<T>(BuildContext context) => context.push<T>(location);
+
+  void pushReplacement(BuildContext context) =>
+      context.pushReplacement(location);
+
+  void replace(BuildContext context) => context.replace(location);
+}
+
 // **************************************************************************
 // RiverpodGenerator
 // **************************************************************************
 
-String _$goRouterHash() => r'b0c0e159cccc69ec839a8c19ffcc89e1a3b9383c';
+String _$goRouterHash() => r'6e28725af601229a1651fcbe5eb008259a418fd8';
 
 /// See also [goRouter].
 @ProviderFor(goRouter)
