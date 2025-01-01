@@ -1,0 +1,31 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "sample_go_router",
+            "request": "launch",
+            "type": "dart",
+            "program": "packages/sample_go_router/lib/main.dart",
+            "args": [
+                // "--debug",
+                // "--flavor",
+                // "development",
+            ]
+        },
+        // {
+        //     "name": "widgets_catalog_qa",
+        //     "request": "launch",
+        //     "type": "dart",
+        //     "flutterMode": "profile"
+        // },
+        // {
+        //     "name": "widgets_catalog",
+        //     "request": "launch",
+        //     "type": "dart",
+        //     "flutterMode": "release"
+        // }
+    ]
+}

@@ -22,6 +22,14 @@ RouteBase get $pageShellRoute => StatefulShellRouteData.$route(
             ),
           ],
         ),
+        StatefulShellBranchData.$branch(
+          routes: [
+            GoRouteData.$route(
+              path: '/sample3',
+              factory: $Sample3RouteExtension._fromState,
+            ),
+          ],
+        ),
       ],
     );
 
@@ -35,6 +43,23 @@ extension $Sample2RouteExtension on Sample2Route {
 
   String get location => GoRouteData.$location(
         '/sample2',
+      );
+
+  void go(BuildContext context) => context.go(location);
+
+  Future<T?> push<T>(BuildContext context) => context.push<T>(location);
+
+  void pushReplacement(BuildContext context) =>
+      context.pushReplacement(location);
+
+  void replace(BuildContext context) => context.replace(location);
+}
+
+extension $Sample3RouteExtension on Sample3Route {
+  static Sample3Route _fromState(GoRouterState state) => const Sample3Route();
+
+  String get location => GoRouteData.$location(
+        '/sample3',
       );
 
   void go(BuildContext context) => context.go(location);

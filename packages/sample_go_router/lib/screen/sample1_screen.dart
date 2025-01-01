@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
-import 'package:sample_go_router/routes/router.dart';
+import 'package:sample_go_router/theme/theme.dart';
 
 class Sample1Screen extends StatelessWidget {
   const Sample1Screen({super.key});
@@ -8,14 +7,23 @@ class Sample1Screen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Sample1Screen'),
-      ),
-      body: Center(
-        child: ElevatedButton(
-          onPressed: () => context.go(Sample2Route.path),
-          child: const Text('next'),
-        ),
+      body: CustomScrollView(
+        slivers: [
+          SliverAppBar(
+            pinned: true,
+            expandedHeight: 200,
+            flexibleSpace: FlexibleSpaceBar(
+              title: Text(
+                'Sample 1',
+                style: TextStyle(
+                  color: context.lightTheme.background,
+                ),
+              ),
+              background: const ColoredBox(color: Colors.red),
+            ),
+          ),
+          // SliverFixedExtentList(delegate: delegate, itemExtent: itemExtent)
+        ],
       ),
     );
   }
