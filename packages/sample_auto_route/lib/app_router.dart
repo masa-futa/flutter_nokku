@@ -13,7 +13,11 @@ AppRouter appRouter(Ref ref) => AppRouter();
 class AppRouter extends RootStackRouter {
   @override
   List<AutoRoute> get routes => [
-        AutoRoute(page: HomeRoute.page, guards: [AuthGuard()]),
+        AutoRoute(
+          page: HomeRoute.page,
+          guards: [AuthGuard()],
+          initial: true,
+        ),
       ];
 
   @override
