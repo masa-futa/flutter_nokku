@@ -1,0 +1,19 @@
+name: sample_theme
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0-216.1.beta
+dependencies:
+  flutter:
+    sdk: flutter
+  riverpod_annotation: ^2.6.1
+  hooks_riverpod: ^2.6.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.13
+  riverpod_generator: ^2.6.1
+flutter:
+  uses-material-design: true
